@@ -1,0 +1,38 @@
+# 服务配置
+server:
+  port: 8881
+# mysql数据库配置
+spring:
+  datasource:
+    name: mysql
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://123.56.155.7:3306/wordlates?useUnicode=true&characterEncoding=utf-8
+    username: llsh
+    password: LLsh0718!@#$
+  # 热部署
+  devtools:
+    restart:
+      enabled: true
+  # 控制文件上传
+  servlet:
+    multipart:
+      max-file-size: 20000
+      max-request-size: 20000
+# mybatis配置
+mybatis:
+  type-aliases-package: com.bjfu.wordlates.entity
+  configuration:
+    map-underscore-to-camel-case: true
+# 日志配置
+logging:
+  level:
+    root: info
+  file:
+    path: ./logs
+  config: classpath:logback-spring.xml
+# 文件上传配置
+upload:
+  path: ./upload/
+
+
+

@@ -1,0 +1,19 @@
+2020-10-16 09:30:30 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.servlet.multipart.max-request-size' to org.springframework.util.unit.DataSize:
+
+    Property: spring.servlet.multipart.max-request-size
+    Value: 100Mb
+    Origin: class path resource [application.yml]:20:25
+    Reason: failed to convert java.lang.String to org.springframework.util.unit.DataSize
+
+Action:
+
+Update your application's configuration
+
