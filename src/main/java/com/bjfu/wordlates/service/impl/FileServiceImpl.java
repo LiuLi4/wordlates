@@ -25,8 +25,15 @@ public class FileServiceImpl implements FileService {
         // 处理获取到的上传文件的文件名的路径部分，只保留文件名部分
         name = name.substring(name.lastIndexOf("\\") + 1);
         // 去掉文件后缀
-        name = name.substring(0, name.length() - 5);
-        String path = UploadConfig.path + name + "_" + System.currentTimeMillis() + ".xlsx";
+        // name = name.substring(0, name.length() - 5);
+        String suffix = name.substring(name.length() - 5, name.length());
+        // String path = UploadConfig.path + name + "_" + System.currentTimeMillis() + ".xlsx";
+        if (suffix.equals(".xlsx")) {
+            name = "data.xlsx";
+        } else if (suffix.equals(".docx")) {
+            name = "template.docx";
+        }
+        String path = UploadConfig.path + name;
         try {
             FILEUtil.write(path, file.getInputStream());
         } catch (IOException e) {

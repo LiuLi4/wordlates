@@ -4,6 +4,7 @@ import org.apache.poi.xwpf.usermodel.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.util.StringUtils;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.io.*;
 import java.lang.reflect.InvocationTargetException;
@@ -30,6 +31,19 @@ public class POIUtil {
         doc.write(os);
         LOGGER.info("word文件成功生成！");
         LOGGER.error("发生错误");
+        close(os);
+        close(is);
+    }
+
+    public static void templateWrite(String filePath, OutputStream os, Map<String, Object> params) throws Exception {
+        InputStream is = new FileInputStream(filePath);
+        XWPFDocument doc = new XWPFDocument(is);
+        //替换段落里面的变量
+        replaceInPara(doc, params);
+        //替换表格里面的变量
+        replaceInTable(doc, params);
+        doc.write(os);
+        LOGGER.info("word文件成功生成！");
         close(os);
         close(is);
     }
