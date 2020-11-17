@@ -5,5 +5,5 @@ public final class Constants {
     private Constants() {}
 
     public static final String FILE_TEMPLATE_PATH = "./upload/template.docx";
-    public static final String FILE_OUT_PATH = "E:\\2018年XX食品年度分析报告.docx";
+    public static final String FILE_OUT_NAME = "抽检报告.docx";
 }

@@ -1,11 +1,11 @@
 package com.bjfu.wordlates.controller;
 
+import com.bjfu.wordlates.constant.ErrorEnums;
 import com.bjfu.wordlates.service.ReportService;
-import com.bjfu.wordlates.utils.POIUtil;
+import com.bjfu.wordlates.utils.JSONUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
@@ -30,9 +30,13 @@ public class UpdateWordController {
         String status = "";
         try {
             status = reportService.creatWordByTemplate(res);
-        } catch (IOException e) {
+        } catch (Exception e) {
+            status = JSONUtil.statusToJson(ErrorEnums.E_500);
             e.printStackTrace();
-            LOGGER.error("/word/updateWord: " + e.toString());
+            LOGGER.error("URL of the current request:[{}] - exception:[{}] - response:[{}]",
+                    "/word/updateWord",
+                    e.toString(),
+                    res);
         }
         return status;
     }
