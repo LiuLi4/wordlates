@@ -1,10 +1,12 @@
 package com.bjfu.wordlates.service.impl;
 
 import com.bjfu.wordlates.config.UploadConfig;
+import com.bjfu.wordlates.constant.ErrorEnums;
 import com.bjfu.wordlates.dao.FileDao;
 import com.bjfu.wordlates.entity.File;
 import com.bjfu.wordlates.service.FileService;
 import com.bjfu.wordlates.utils.FILEUtil;
+import com.bjfu.wordlates.utils.JSONUtil;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -20,26 +22,20 @@ public class FileServiceImpl implements FileService {
     private FileDao dao;
 
     @Override
-    public void upload(String name, String md5, MultipartFile file) {
+    public String upload(String name, String md5, MultipartFile file) throws IOException {
         // 注意：不同的浏览器提交的文件名是不一样的，有些浏览器提交上来的文件名是带有路径的，如： c:\a\b\1.txt，而有些只是单纯的文件名，如：1.txt
         // 处理获取到的上传文件的文件名的路径部分，只保留文件名部分
         name = name.substring(name.lastIndexOf("\\") + 1);
-        // 去掉文件后缀
-        // name = name.substring(0, name.length() - 5);
+        dao.save(new File(name, md5, UploadConfig.path, new Date()));
         String suffix = name.substring(name.length() - 5, name.length());
-        // String path = UploadConfig.path + name + "_" + System.currentTimeMillis() + ".xlsx";
         if (suffix.equals(".xlsx")) {
             name = "data.xlsx";
         } else if (suffix.equals(".docx")) {
             name = "template.docx";
         }
         String path = UploadConfig.path + name;
-        try {
-            FILEUtil.write(path, file.getInputStream());
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        dao.save(new File(name, md5, path, new Date()));
+        FILEUtil.write(path, file.getInputStream());
+        return JSONUtil.statusToJson(ErrorEnums.E_200);
     }
 
 }
