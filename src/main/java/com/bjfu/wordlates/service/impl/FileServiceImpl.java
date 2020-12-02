@@ -28,8 +28,8 @@ public class FileServiceImpl implements FileService {
         name = name.substring(name.lastIndexOf("\\") + 1);
         dao.save(new File(name, md5, UploadConfig.path, new Date()));
         String suffix = name.substring(name.length() - 5, name.length());
-        if (suffix.equals(".xlsx")) {
-            name = "data.xlsx";
+        if (suffix.equals(".csv")) {
+            name = "data.csv";
         } else if (suffix.equals(".docx")) {
             name = "template.docx";
         }
