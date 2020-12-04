@@ -30,7 +30,6 @@ public class ReportServiceImpl implements ReportService {
         res.setHeader("Content-Disposition", "attachment;filename=" + fileName);
         OutputStream os = res.getOutputStream();
 
-
         // 生成自定义标签的值
         Map<String, Object> params = new HashMap<String, Object>();
         params.put("foodName", dao.selectById(1L).getFoodName());

@@ -2,11 +2,15 @@ package com.bjfu.wordlates.service.impl;
 
 import com.bjfu.wordlates.config.UploadConfig;
 import com.bjfu.wordlates.constant.ErrorEnums;
+import com.bjfu.wordlates.dao.DataDao;
 import com.bjfu.wordlates.dao.FileDao;
 import com.bjfu.wordlates.entity.File;
 import com.bjfu.wordlates.service.FileService;
+import com.bjfu.wordlates.utils.DBUtil;
 import com.bjfu.wordlates.utils.FILEUtil;
 import com.bjfu.wordlates.utils.JSONUtil;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -20,6 +24,12 @@ public class FileServiceImpl implements FileService {
 
     @Resource
     private FileDao dao;
+
+    @Resource
+    private DataDao dataDao;
+
+    @Autowired
+    private JdbcTemplate jdbcTemplate;
 
     @Override
     public String upload(String name, String md5, MultipartFile file) throws IOException {
@@ -35,7 +45,15 @@ public class FileServiceImpl implements FileService {
         }
         String path = UploadConfig.path + name;
         FILEUtil.write(path, file.getInputStream());
+        String tableName = "2020_data";
+        //建表
+        dataDao.creatTable(tableName);
+        //插入数据
+        String[] sql = DBUtil.insertTable(tableName);
+        jdbcTemplate.batchUpdate(sql);
         return JSONUtil.statusToJson(ErrorEnums.E_200);
     }
+
+
 
 }
