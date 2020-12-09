@@ -25,32 +25,21 @@ public class FileServiceImpl implements FileService {
     @Resource
     private FileDao dao;
 
-    @Resource
-    private DataDao dataDao;
-
-    @Autowired
-    private JdbcTemplate jdbcTemplate;
-
     @Override
     public String upload(String name, String md5, MultipartFile file) throws IOException {
         // 注意：不同的浏览器提交的文件名是不一样的，有些浏览器提交上来的文件名是带有路径的，如： c:\a\b\1.txt，而有些只是单纯的文件名，如：1.txt
         // 处理获取到的上传文件的文件名的路径部分，只保留文件名部分
         name = name.substring(name.lastIndexOf("\\") + 1);
-        dao.save(new File(name, md5, UploadConfig.path, new Date()));
         String suffix = name.substring(name.length() - 5, name.length());
-        if (suffix.equals(".csv")) {
+        if (suffix.contains(".csv")) {
+            // 将用户上传的文件保存到数据库
+            dao.save(new File(name, md5, UploadConfig.path, new Date()));
             name = "data.csv";
-        } else if (suffix.equals(".docx")) {
+        } else if (suffix.contains(".csv")) {
             name = "template.docx";
         }
         String path = UploadConfig.path + name;
         FILEUtil.write(path, file.getInputStream());
-        String tableName = "2020_data";
-        //建表
-        dataDao.creatTable(tableName);
-        //插入数据
-        String[] sql = DBUtil.insertTable(tableName);
-        jdbcTemplate.batchUpdate(sql);
         return JSONUtil.statusToJson(ErrorEnums.E_200);
     }
 

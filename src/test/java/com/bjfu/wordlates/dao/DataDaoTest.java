@@ -15,16 +15,8 @@ public class DataDaoTest {
     @Autowired
     private DataDao dao;
 
-    @Resource
-    private ReportDao reportDao;
-
     @Test
     public void testSelect(){
         System.out.println(dao.creatTable("2020_12_04_data"));
-    }
-
-    @Test
-    public void test(){
-        System.out.println(reportDao.selectById(1L).getFoodName());
     }
 }

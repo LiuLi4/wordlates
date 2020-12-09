@@ -25,7 +25,7 @@ public class DBUtil {
      * @throws IOException
      */
     public static String[] insertTable(String tableName) throws IOException {
-        List<Integer> columnList = FILEUtil.readProper(Constants.FILE_PROPER_PATH);
+        List<Integer> columnList = FILEUtil.readProper();
         try (CSVReader csvReader = new CSVReaderBuilder(new BufferedReader(new InputStreamReader(
                 new FileInputStream(new File(Constants.FILE_CSV_PATH)), charset))).build()) {
             Iterator<String[]> iterator = csvReader.iterator();
