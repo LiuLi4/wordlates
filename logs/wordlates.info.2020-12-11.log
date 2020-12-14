@@ -1,0 +1,475 @@
+2020-12-11 10:15:26 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Starting WordlatesApplication on DESKTOP-TJTSLKU with PID 7560 (C:\Users\15174\IdeaProjects\wordlates\target\classes started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-11 10:15:26 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - No active profile set, falling back to default profiles: default
+2020-12-11 10:15:26 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-11 10:15:26 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-11 10:15:27 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-11 10:15:28 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+2020-12-11 10:15:28 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+2020-12-11 10:15:28 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-11 10:15:28 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-11 10:15:28 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-11 10:15:28 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1507 ms
+2020-12-11 10:15:28 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-11 10:15:28 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-11 10:15:28 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-12-11 10:15:28 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-11 10:15:29 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+2020-12-11 10:15:29 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+2020-12-11 10:15:29 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-11 10:15:29 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-11 10:15:29 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-11 10:15:29 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Started WordlatesApplication in 3.335 seconds (JVM running for 4.202)
+2020-12-11 10:16:15 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Starting WordlatesApplication on DESKTOP-TJTSLKU with PID 11488 (C:\Users\15174\IdeaProjects\wordlates\target\classes started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-11 10:16:15 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - No active profile set, falling back to default profiles: default
+2020-12-11 10:16:15 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-11 10:16:15 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-11 10:16:16 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-11 10:16:17 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+2020-12-11 10:16:17 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+2020-12-11 10:16:17 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-11 10:16:17 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-11 10:16:17 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-11 10:16:17 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1454 ms
+2020-12-11 10:16:17 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-11 10:16:18 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-11 10:16:18 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-12-11 10:16:18 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-11 10:16:18 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+2020-12-11 10:16:18 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+2020-12-11 10:16:18 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-11 10:16:18 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-11 10:16:18 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-11 10:16:18 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Started WordlatesApplication in 3.146 seconds (JVM running for 3.988)
+2020-12-11 10:16:58 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Starting WordlatesApplication on DESKTOP-TJTSLKU with PID 15476 (C:\Users\15174\IdeaProjects\wordlates\target\classes started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-11 10:16:58 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - No active profile set, falling back to default profiles: default
+2020-12-11 10:16:58 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-11 10:16:58 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-11 10:16:58 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-11 10:16:59 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+2020-12-11 10:16:59 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+2020-12-11 10:16:59 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-11 10:16:59 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-11 10:16:59 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-11 10:16:59 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1434 ms
+2020-12-11 10:17:00 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-11 10:17:00 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-11 10:17:00 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-12-11 10:17:00 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-11 10:17:00 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+2020-12-11 10:17:00 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+2020-12-11 10:17:00 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-11 10:17:00 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-11 10:17:00 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-11 10:17:00 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Started WordlatesApplication in 3.202 seconds (JVM running for 4.103)
+2020-12-11 10:18:19 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Starting WordlatesApplication on DESKTOP-TJTSLKU with PID 15104 (C:\Users\15174\IdeaProjects\wordlates\target\classes started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-11 10:18:19 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - No active profile set, falling back to default profiles: default
+2020-12-11 10:18:19 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-11 10:18:19 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-11 10:18:20 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-11 10:18:20 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+2020-12-11 10:18:20 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+2020-12-11 10:18:20 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-11 10:18:20 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-11 10:18:20 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-11 10:18:20 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1383 ms
+2020-12-11 10:18:21 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-11 10:18:21 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-11 10:18:21 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-12-11 10:18:21 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-11 10:18:21 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+2020-12-11 10:18:21 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+2020-12-11 10:18:21 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-11 10:18:21 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-11 10:18:21 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-11 10:18:21 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Started WordlatesApplication in 3.029 seconds (JVM running for 3.831)
+2020-12-11 10:20:37 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Starting WordlatesApplication on DESKTOP-TJTSLKU with PID 20476 (C:\Users\15174\IdeaProjects\wordlates\target\classes started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-11 10:20:37 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - No active profile set, falling back to default profiles: default
+2020-12-11 10:20:37 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-11 10:20:37 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-11 10:20:38 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-11 10:20:39 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+2020-12-11 10:20:39 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+2020-12-11 10:20:39 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-11 10:20:39 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-11 10:20:39 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-11 10:20:39 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1329 ms
+2020-12-11 10:20:39 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-11 10:20:39 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-11 10:20:39 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-12-11 10:20:39 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-11 10:20:40 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+2020-12-11 10:20:40 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+2020-12-11 10:20:40 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-11 10:20:40 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-11 10:20:40 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-11 10:20:40 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Started WordlatesApplication in 2.859 seconds (JVM running for 3.662)
+2020-12-11 10:21:44 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Starting WordlatesApplication on DESKTOP-TJTSLKU with PID 13456 (C:\Users\15174\IdeaProjects\wordlates\target\classes started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-11 10:21:44 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - No active profile set, falling back to default profiles: default
+2020-12-11 10:21:44 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-11 10:21:44 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-11 10:21:45 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-11 10:21:45 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+2020-12-11 10:21:45 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+2020-12-11 10:21:45 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-11 10:21:45 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-11 10:21:45 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-11 10:21:45 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1361 ms
+2020-12-11 10:21:46 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-11 10:21:46 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-11 10:21:46 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-12-11 10:21:46 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-11 10:21:46 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+2020-12-11 10:21:46 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+2020-12-11 10:21:46 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-11 10:21:46 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-11 10:21:46 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-11 10:21:46 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Started WordlatesApplication in 3.239 seconds (JVM running for 4.176)
+2020-12-11 10:24:09 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Starting WordlatesApplication on DESKTOP-TJTSLKU with PID 11344 (C:\Users\15174\IdeaProjects\wordlates\target\classes started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-11 10:24:09 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - No active profile set, falling back to default profiles: default
+2020-12-11 10:24:09 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-11 10:24:09 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-11 10:24:10 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-11 10:24:10 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+2020-12-11 10:24:10 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+2020-12-11 10:24:10 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-11 10:24:10 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-11 10:24:11 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-11 10:24:11 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1359 ms
+2020-12-11 10:24:11 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-11 10:24:11 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-11 10:24:11 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-12-11 10:24:11 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-11 10:24:11 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+2020-12-11 10:24:11 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+2020-12-11 10:24:11 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-11 10:24:11 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-11 10:24:11 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-11 10:24:12 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Started WordlatesApplication in 3.037 seconds (JVM running for 3.824)
+2020-12-11 10:25:56 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Starting WordlatesApplication on DESKTOP-TJTSLKU with PID 21308 (C:\Users\15174\IdeaProjects\wordlates\target\classes started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-11 10:25:56 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - No active profile set, falling back to default profiles: default
+2020-12-11 10:25:56 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-11 10:25:56 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-11 10:25:56 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-11 10:25:57 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+2020-12-11 10:25:57 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+2020-12-11 10:25:57 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-11 10:25:57 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-11 10:25:57 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-11 10:25:57 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1519 ms
+2020-12-11 10:25:58 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-11 10:25:58 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-11 10:25:58 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-12-11 10:25:58 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-11 10:25:58 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+2020-12-11 10:25:58 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+2020-12-11 10:25:58 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-11 10:25:58 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-11 10:25:58 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-11 10:25:58 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Started WordlatesApplication in 3.15 seconds (JVM running for 3.937)
+2020-12-11 10:27:07 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Starting WordlatesApplication on DESKTOP-TJTSLKU with PID 15204 (C:\Users\15174\IdeaProjects\wordlates\target\classes started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-11 10:27:07 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - No active profile set, falling back to default profiles: default
+2020-12-11 10:27:07 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-11 10:27:07 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-11 10:27:08 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-11 10:27:09 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+2020-12-11 10:27:09 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+2020-12-11 10:27:09 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-11 10:27:09 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-11 10:27:09 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-11 10:27:09 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1344 ms
+2020-12-11 10:27:09 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-11 10:27:09 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-11 10:27:09 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-12-11 10:27:10 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-11 10:27:10 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+2020-12-11 10:27:10 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+2020-12-11 10:27:10 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-11 10:27:10 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-11 10:27:10 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-11 10:27:10 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Started WordlatesApplication in 2.911 seconds (JVM running for 3.758)
+2020-12-11 10:27:32 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Starting WordlatesApplication on DESKTOP-TJTSLKU with PID 18712 (C:\Users\15174\IdeaProjects\wordlates\target\classes started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-11 10:27:32 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - No active profile set, falling back to default profiles: default
+2020-12-11 10:27:32 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-11 10:27:32 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-11 10:27:33 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-11 10:27:34 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+2020-12-11 10:27:34 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+2020-12-11 10:27:34 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-11 10:27:34 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-11 10:27:34 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-11 10:27:34 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1359 ms
+2020-12-11 10:27:34 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-11 10:27:34 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-11 10:27:34 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-12-11 10:27:34 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-11 10:27:35 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+2020-12-11 10:27:35 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+2020-12-11 10:27:35 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-11 10:27:35 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-11 10:27:35 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-11 10:27:35 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Started WordlatesApplication in 2.991 seconds (JVM running for 3.859)
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.resolver.TemplateResolver - Resolve the document start...
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.resolver.TemplateResolver - Resolve the document end, resolve and create 22 MetaTemplates.
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.DefaultRender - Render template start...
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cyear}}
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cfood}}
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cloc}}
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Clocs}}
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cp}}
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cps}}
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cdata}}
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cyear}}
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cfood}}
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Aloc}}
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Alocn}}
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Asort}}
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Asortn}}
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Afood}}
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Afoodn}}
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Ameth}}
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Amethn}}
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Afoodn}}
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Adan}}
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Adann}}
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Arate}}
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{#table}}
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cyear}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cfood}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cloc}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Clocs}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cp}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cps}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cdata}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cyear}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cfood}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Aloc}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Alocn}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Asort}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Asortn}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Afood}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Afoodn}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Ameth}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Amethn}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Afoodn}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Adan}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Adann}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Arate}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:27:35 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{#table}}, Sign:#, policy:MiniTableRenderPolicy
+2020-12-11 10:27:36 [restartedMain] INFO  com.deepoove.poi.render.DefaultRender - Successfully Render template in 81 millis
+2020-12-11 10:30:42 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Starting WordlatesApplication on DESKTOP-TJTSLKU with PID 4528 (C:\Users\15174\IdeaProjects\wordlates\target\classes started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-11 10:30:42 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - No active profile set, falling back to default profiles: default
+2020-12-11 10:30:42 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-11 10:30:42 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-11 10:30:42 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-11 10:30:43 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+2020-12-11 10:30:43 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+2020-12-11 10:30:43 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-11 10:30:43 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-11 10:30:43 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-11 10:30:43 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1415 ms
+2020-12-11 10:30:44 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-11 10:30:44 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-11 10:30:44 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-12-11 10:30:44 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-11 10:30:44 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+2020-12-11 10:30:44 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+2020-12-11 10:30:44 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-11 10:30:44 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-11 10:30:44 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-11 10:30:44 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Started WordlatesApplication in 2.965 seconds (JVM running for 3.877)
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.resolver.TemplateResolver - Resolve the document start...
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.resolver.TemplateResolver - Resolve the document end, resolve and create 23 MetaTemplates.
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.DefaultRender - Render template start...
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cyear}}
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cfood}}
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cloc}}
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Clocs}}
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cp}}
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cps}}
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cdata}}
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cyear}}
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cfood}}
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Aloc}}
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Alocn}}
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Asort}}
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Asortn}}
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Afood}}
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Afoodn}}
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Ameth}}
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Amethn}}
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Afoodn}}
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Adan}}
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Adann}}
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Arate}}
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{#table}}
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - Chart::{{pieSampling}}
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cyear}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cfood}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cloc}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Clocs}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cp}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cps}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cdata}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cyear}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cfood}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Aloc}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Alocn}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Asort}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Asortn}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Afood}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Afoodn}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Ameth}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Amethn}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Afoodn}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Adan}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Adann}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Arate}}, Sign: , policy:TextRenderPolicy
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{#table}}, Sign:#, policy:MiniTableRenderPolicy
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template Chart::{{pieSampling}}, Sign: , policy:SingleSeriesChartTemplateRenderPolicy
+2020-12-11 10:30:45 [restartedMain] INFO  com.deepoove.poi.render.DefaultRender - Successfully Render template in 406 millis
+2020-12-11 13:32:13 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Starting WordlatesApplication on DESKTOP-TJTSLKU with PID 5636 (C:\Users\15174\IdeaProjects\wordlates\target\classes started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-11 13:32:13 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - No active profile set, falling back to default profiles: default
+2020-12-11 13:32:14 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-11 13:32:14 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-11 13:32:14 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-11 13:32:15 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+2020-12-11 13:32:15 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+2020-12-11 13:32:15 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-11 13:32:15 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-11 13:32:15 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-11 13:32:15 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1636 ms
+2020-12-11 13:32:16 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-11 13:32:16 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-11 13:32:16 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-12-11 13:32:16 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-11 13:32:16 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+2020-12-11 13:32:16 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+2020-12-11 13:32:16 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-11 13:32:16 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-11 13:32:16 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-11 13:32:16 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Started WordlatesApplication in 3.621 seconds (JVM running for 4.511)
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.resolver.TemplateResolver - Resolve the document start...
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.resolver.TemplateResolver - Resolve the document end, resolve and create 24 MetaTemplates.
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.DefaultRender - Render template start...
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cyear}}
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cfood}}
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cloc}}
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Clocs}}
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cp}}
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cps}}
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cdata}}
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cyear}}
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cfood}}
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Aloc}}
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Alocn}}
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Asort}}
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Asortn}}
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Afood}}
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Afoodn}}
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Ameth}}
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Amethn}}
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Afoodn}}
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Adan}}
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Adann}}
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Arate}}
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{#table}}
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - Chart::{{pieSampling}}
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - Chart::{{barLocation}}
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cyear}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cfood}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cloc}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Clocs}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cp}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cps}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cdata}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cyear}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cfood}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Aloc}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Alocn}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Asort}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Asortn}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Afood}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Afoodn}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Ameth}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Amethn}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Afoodn}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Adan}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Adann}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Arate}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{#table}}, Sign:#, policy:MiniTableRenderPolicy
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template Chart::{{pieSampling}}, Sign: , policy:SingleSeriesChartTemplateRenderPolicy
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template Chart::{{barLocation}}, Sign: , policy:MultiSeriesChartTemplateRenderPolicy
+2020-12-11 13:32:17 [restartedMain] INFO  com.deepoove.poi.render.DefaultRender - Successfully Render template in 531 millis
+2020-12-11 13:35:41 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Starting WordlatesApplication on DESKTOP-TJTSLKU with PID 19004 (C:\Users\15174\IdeaProjects\wordlates\target\classes started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-11 13:35:41 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - No active profile set, falling back to default profiles: default
+2020-12-11 13:35:41 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-11 13:35:41 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-11 13:35:42 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-11 13:35:43 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+2020-12-11 13:35:43 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+2020-12-11 13:35:43 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-11 13:35:43 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-11 13:35:43 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-11 13:35:43 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1346 ms
+2020-12-11 13:35:43 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-11 13:35:43 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-11 13:35:43 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-12-11 13:35:43 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-11 13:35:43 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+2020-12-11 13:35:43 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+2020-12-11 13:35:43 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-11 13:35:43 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-11 13:35:43 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-11 13:35:44 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Started WordlatesApplication in 2.954 seconds (JVM running for 3.764)
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.resolver.TemplateResolver - Resolve the document start...
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.resolver.TemplateResolver - Resolve the document end, resolve and create 24 MetaTemplates.
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.DefaultRender - Render template start...
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cyear}}
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cfood}}
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cloc}}
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Clocs}}
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cp}}
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cps}}
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cdata}}
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cyear}}
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cfood}}
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Aloc}}
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Alocn}}
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Asort}}
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Asortn}}
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Afood}}
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Afoodn}}
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Ameth}}
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Amethn}}
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Afoodn}}
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Adan}}
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Adann}}
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Arate}}
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{#table}}
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - Chart::{{pieSampling}}
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - Chart::{{barLocation}}
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cyear}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cfood}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cloc}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Clocs}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cp}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cps}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cdata}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cyear}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cfood}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Aloc}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Alocn}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Asort}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Asortn}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Afood}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Afoodn}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Ameth}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Amethn}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Afoodn}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Adan}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Adann}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Arate}}, Sign: , policy:TextRenderPolicy
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{#table}}, Sign:#, policy:MiniTableRenderPolicy
+2020-12-11 13:35:44 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template Chart::{{pieSampling}}, Sign: , policy:SingleSeriesChartTemplateRenderPolicy
+2020-12-11 13:35:45 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template Chart::{{barLocation}}, Sign: , policy:MultiSeriesChartTemplateRenderPolicy
+2020-12-11 13:35:45 [restartedMain] INFO  com.deepoove.poi.render.DefaultRender - Successfully Render template in 405 millis

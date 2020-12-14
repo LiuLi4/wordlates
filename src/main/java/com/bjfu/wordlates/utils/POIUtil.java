@@ -1,6 +1,8 @@
 package com.bjfu.wordlates.utils;
 
+import org.apache.poi.ss.util.CellRangeAddress;
 import org.apache.poi.xwpf.usermodel.*;
+import org.apache.poi.xddf.usermodel.chart.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.util.StringUtils;
@@ -202,6 +204,46 @@ public class POIUtil {
                 e.printStackTrace();
             }
         }
+    }
+
+    private static void setBarData(XWPFChart chart, String chartTitle, String[] series, String[] categories, Double[] values1, Double[] values2) {
+        final List<XDDFChartData> data = chart.getChartSeries();
+        final XDDFBarChartData bar = (XDDFBarChartData) data.get(0);
+
+        final int numOfPoints = categories.length;
+        final String categoryDataRange = chart.formatRange(new CellRangeAddress(1, numOfPoints, 0, 0));
+        final String valuesDataRange = chart.formatRange(new CellRangeAddress(1, numOfPoints, 1, 1));
+        final String valuesDataRange2 = chart.formatRange(new CellRangeAddress(1, numOfPoints, 2, 2));
+        final XDDFDataSource<?> categoriesData = XDDFDataSourcesFactory.fromArray(categories, categoryDataRange, 0);
+        final XDDFNumericalDataSource<? extends Number> valuesData = XDDFDataSourcesFactory.fromArray(values1, valuesDataRange, 1);
+        values1[6] = 16.0; // if you ever want to change the underlying data
+        final XDDFNumericalDataSource<? extends Number> valuesData2 = XDDFDataSourcesFactory.fromArray(values2, valuesDataRange2, 2);
+
+        XDDFChartData.Series series1 = bar.getSeries(0);
+        series1.replaceData(categoriesData, valuesData);
+        series1.setTitle(series[0], chart.setSheetTitle(series[0], 0));
+        XDDFChartData.Series series2 = bar.addSeries(categoriesData, valuesData2);
+        series2.setTitle(series[1], chart.setSheetTitle(series[1], 1));
+
+        chart.plot(bar);
+        chart.setTitleText(chartTitle); // https://stackoverflow.com/questions/30532612
+        chart.setTitleOverlay(false);
+    }
+
+    private static void setColumnData(XWPFChart chart, String chartTitle) {
+        // Series Text
+        List<XDDFChartData> series = chart.getChartSeries();
+        XDDFBarChartData bar = (XDDFBarChartData) series.get(0);
+
+        // in order to transform a bar chart into a column chart, you just need to change the bar direction
+        bar.setBarDirection(BarDirection.COL);
+
+        // looking for "Stacked Bar Chart"? uncomment the following line
+        // bar.setBarGrouping(BarGrouping.STACKED);
+
+        // additionally, you can adjust the axes
+        bar.getCategoryAxis().setOrientation(AxisOrientation.MAX_MIN);
+        bar.getValueAxes().get(0).setPosition(AxisPosition.TOP);
     }
 
 }
