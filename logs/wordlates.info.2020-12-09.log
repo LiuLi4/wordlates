@@ -1,0 +1,491 @@
+2020-12-09 11:12:03 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - Starting FILEUtilTest on DESKTOP-TJTSLKU with PID 17380 (started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-09 11:12:03 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - No active profile set, falling back to default profiles: default
+2020-12-09 11:12:04 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-09 11:12:06 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-09 11:12:07 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-09 11:12:07 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-09 11:12:07 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-09 11:12:07 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-09 11:12:07 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-09 11:12:08 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - Started FILEUtilTest in 4.761 seconds (JVM running for 6.553)
+2020-12-09 11:12:08 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-09 11:13:21 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - Starting FILEUtilTest on DESKTOP-TJTSLKU with PID 18676 (started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-09 11:13:21 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - No active profile set, falling back to default profiles: default
+2020-12-09 11:13:22 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-09 11:13:24 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-09 11:13:24 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-09 11:13:25 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-09 11:13:25 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-09 11:13:25 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-09 11:13:25 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-09 11:13:25 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - Started FILEUtilTest in 4.845 seconds (JVM running for 6.167)
+2020-12-09 11:13:26 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-09 12:58:36 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - Starting FILEUtilTest on DESKTOP-TJTSLKU with PID 7056 (started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-09 12:58:36 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - No active profile set, falling back to default profiles: default
+2020-12-09 12:58:37 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-09 12:58:39 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-09 12:58:40 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-09 12:58:40 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-09 12:58:40 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-09 12:58:41 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-09 12:58:41 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-09 12:58:41 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - Started FILEUtilTest in 5.948 seconds (JVM running for 8.365)
+2020-12-09 16:55:14 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-09 16:55:19 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - Starting FILEUtilTest on DESKTOP-TJTSLKU with PID 14772 (started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-09 16:55:19 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - No active profile set, falling back to default profiles: default
+2020-12-09 16:55:19 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-09 16:55:21 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-09 16:55:22 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-09 16:55:22 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-09 16:55:22 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-09 16:55:22 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-09 16:55:22 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-09 16:55:23 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - Started FILEUtilTest in 4.729 seconds (JVM running for 6.186)
+2020-12-09 16:55:23 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-09 17:04:40 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - Starting FILEUtilTest on DESKTOP-TJTSLKU with PID 19124 (started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-09 17:04:40 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - No active profile set, falling back to default profiles: default
+2020-12-09 17:04:41 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-09 17:04:43 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-09 17:04:44 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-09 17:04:44 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-09 17:04:44 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-09 17:04:44 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-09 17:04:44 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-09 17:04:45 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - Started FILEUtilTest in 5.084 seconds (JVM running for 6.445)
+2020-12-09 17:04:45 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-09 17:06:26 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - Starting FILEUtilTest on DESKTOP-TJTSLKU with PID 19304 (started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-09 17:06:26 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - No active profile set, falling back to default profiles: default
+2020-12-09 17:06:27 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-09 17:06:29 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-09 17:06:30 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-09 17:06:30 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-09 17:06:30 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-09 17:06:30 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-09 17:06:30 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-09 17:06:31 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - Started FILEUtilTest in 4.943 seconds (JVM running for 6.383)
+2020-12-09 17:06:31 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-09 17:07:08 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - Starting FILEUtilTest on DESKTOP-TJTSLKU with PID 14208 (started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-09 17:07:08 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - No active profile set, falling back to default profiles: default
+2020-12-09 17:07:09 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-09 17:07:10 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-09 17:07:11 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-09 17:07:11 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-09 17:07:11 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-09 17:07:11 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-09 17:07:12 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-09 17:07:12 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - Started FILEUtilTest in 4.85 seconds (JVM running for 6.16)
+2020-12-09 17:07:12 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-09 17:09:38 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - Starting FILEUtilTest on DESKTOP-TJTSLKU with PID 15544 (started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-09 17:09:38 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - No active profile set, falling back to default profiles: default
+2020-12-09 17:09:39 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-09 17:09:41 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-09 17:09:41 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-09 17:09:42 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-09 17:09:42 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-09 17:09:42 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-09 17:09:42 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-09 17:09:42 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - Started FILEUtilTest in 4.768 seconds (JVM running for 6.134)
+2020-12-09 17:09:43 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-09 17:10:36 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - Starting FILEUtilTest on DESKTOP-TJTSLKU with PID 18836 (started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-09 17:10:36 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - No active profile set, falling back to default profiles: default
+2020-12-09 17:10:37 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-09 17:10:39 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-09 17:10:39 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-09 17:10:39 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-09 17:10:39 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-09 17:10:39 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-09 17:10:39 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-09 17:10:40 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - Started FILEUtilTest in 4.561 seconds (JVM running for 5.783)
+2020-12-09 17:10:40 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-09 17:19:29 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - Starting FILEUtilTest on DESKTOP-TJTSLKU with PID 19392 (started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-09 17:19:29 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - No active profile set, falling back to default profiles: default
+2020-12-09 17:19:30 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-09 17:19:32 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-09 17:19:32 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-09 17:19:32 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-09 17:19:32 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-09 17:19:32 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-09 17:19:32 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-09 17:19:33 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - Started FILEUtilTest in 4.628 seconds (JVM running for 5.865)
+2020-12-09 17:19:33 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-09 17:20:16 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - Starting FILEUtilTest on DESKTOP-TJTSLKU with PID 11916 (started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-09 17:20:16 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - No active profile set, falling back to default profiles: default
+2020-12-09 17:20:17 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-09 17:20:19 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-09 17:20:19 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-09 17:20:19 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-09 17:20:20 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-09 17:20:20 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-09 17:20:20 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-09 17:20:20 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - Started FILEUtilTest in 4.847 seconds (JVM running for 6.117)
+2020-12-09 17:20:21 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-09 17:20:54 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - Starting FILEUtilTest on DESKTOP-TJTSLKU with PID 14496 (started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-09 17:20:54 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - No active profile set, falling back to default profiles: default
+2020-12-09 17:20:54 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-09 17:20:56 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-09 17:20:57 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-09 17:20:57 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-09 17:20:57 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-09 17:20:57 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-09 17:20:57 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-09 17:20:58 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - Started FILEUtilTest in 4.61 seconds (JVM running for 5.887)
+2020-12-09 17:20:58 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-09 17:21:26 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - Starting FILEUtilTest on DESKTOP-TJTSLKU with PID 17300 (started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-09 17:21:26 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - No active profile set, falling back to default profiles: default
+2020-12-09 17:21:27 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-09 17:21:29 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-09 17:21:30 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-09 17:21:30 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-09 17:21:30 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-09 17:21:30 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-09 17:21:30 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-09 17:21:30 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - Started FILEUtilTest in 5.029 seconds (JVM running for 6.246)
+2020-12-09 17:21:31 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-09 23:03:06 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - Starting FILEUtilTest on DESKTOP-TJTSLKU with PID 8080 (started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-09 23:03:06 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - No active profile set, falling back to default profiles: default
+2020-12-09 23:03:07 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-09 23:03:09 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-09 23:03:09 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-09 23:03:10 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-09 23:03:10 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-09 23:03:10 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-09 23:03:10 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-09 23:03:10 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - Started FILEUtilTest in 5.235 seconds (JVM running for 6.732)
+2020-12-09 23:03:11 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-09 23:06:32 [main] INFO  com.bjfu.wordlates.WordlatesApplicationTests - Starting WordlatesApplicationTests on DESKTOP-TJTSLKU with PID 15024 (started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-09 23:06:32 [main] INFO  com.bjfu.wordlates.WordlatesApplicationTests - No active profile set, falling back to default profiles: default
+2020-12-09 23:06:34 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-09 23:06:34 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-09 23:06:36 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-09 23:06:36 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-09 23:06:36 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-09 23:06:37 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-09 23:06:37 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-09 23:06:37 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-09 23:06:37 [main] INFO  com.bjfu.wordlates.WordlatesApplicationTests - Started WordlatesApplicationTests in 5.27 seconds (JVM running for 6.619)
+2020-12-09 23:06:38 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-09 23:08:53 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Starting WordlatesApplication on DESKTOP-TJTSLKU with PID 7088 (C:\Users\15174\IdeaProjects\wordlates\target\classes started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-09 23:08:53 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - No active profile set, falling back to default profiles: default
+2020-12-09 23:08:53 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-09 23:08:53 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-09 23:08:54 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-09 23:08:55 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+2020-12-09 23:08:55 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+2020-12-09 23:08:55 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-09 23:08:55 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-09 23:08:55 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-09 23:08:55 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1600 ms
+2020-12-09 23:08:56 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-09 23:08:56 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-09 23:08:56 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-12-09 23:08:56 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-09 23:08:56 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+2020-12-09 23:08:56 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+2020-12-09 23:08:56 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-09 23:08:56 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-09 23:08:56 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-09 23:08:56 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Started WordlatesApplication in 3.662 seconds (JVM running for 4.664)
+2020-12-09 23:09:35 [http-nio-8881-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-09 23:09:35 [http-nio-8881-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-09 23:09:35 [http-nio-8881-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2020-12-09 23:09:45 [http-nio-8881-exec-5] ERROR com.bjfu.wordlates.controller.UpdateWordController - URL of the current request:[/word/updateWord] - exception:[org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)] - response:[org.apache.catalina.connector.ResponseFacade@5cfcc65e]
+2020-12-09 23:10:27 [http-nio-8881-exec-9] ERROR com.bjfu.wordlates.controller.UpdateWordController - URL of the current request:[/word/updateWord] - exception:[org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)] - response:[org.apache.catalina.connector.ResponseFacade@5cfcc65e]
+2020-12-09 23:11:59 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Starting WordlatesApplication on DESKTOP-TJTSLKU with PID 3428 (C:\Users\15174\IdeaProjects\wordlates\target\classes started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-09 23:11:59 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - No active profile set, falling back to default profiles: default
+2020-12-09 23:11:59 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-09 23:11:59 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-09 23:12:00 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-09 23:12:00 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+2020-12-09 23:12:00 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+2020-12-09 23:12:00 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-09 23:12:00 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-09 23:12:00 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-09 23:12:00 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1469 ms
+2020-12-09 23:12:01 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-09 23:12:01 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-09 23:12:01 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-12-09 23:12:01 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-09 23:12:01 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+2020-12-09 23:12:01 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+2020-12-09 23:12:01 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-09 23:12:01 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-09 23:12:01 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-09 23:12:01 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Started WordlatesApplication in 3.171 seconds (JVM running for 4.084)
+2020-12-09 23:12:15 [http-nio-8881-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-09 23:12:15 [http-nio-8881-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-09 23:12:15 [http-nio-8881-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2020-12-09 23:12:25 [http-nio-8881-exec-3] INFO  com.deepoove.poi.resolver.TemplateResolver - Resolve the document start...
+2020-12-09 23:12:25 [http-nio-8881-exec-3] INFO  com.deepoove.poi.resolver.TemplateResolver - Resolve the document end, resolve and create 0 MetaTemplates.
+2020-12-09 23:12:25 [http-nio-8881-exec-3] INFO  com.deepoove.poi.render.DefaultRender - Render template start...
+2020-12-09 23:12:25 [http-nio-8881-exec-3] INFO  com.deepoove.poi.render.DefaultRender - Successfully Render template in 3 millis
+2020-12-09 23:17:26 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Starting WordlatesApplication on DESKTOP-TJTSLKU with PID 18572 (C:\Users\15174\IdeaProjects\wordlates\target\classes started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-09 23:17:26 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - No active profile set, falling back to default profiles: default
+2020-12-09 23:17:27 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-09 23:17:27 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-09 23:17:27 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-09 23:17:28 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+2020-12-09 23:17:28 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+2020-12-09 23:17:28 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-09 23:17:28 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-09 23:17:28 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-09 23:17:28 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1421 ms
+2020-12-09 23:17:29 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-09 23:17:29 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-09 23:17:29 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-12-09 23:17:29 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-09 23:17:29 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+2020-12-09 23:17:29 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+2020-12-09 23:17:29 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-09 23:17:29 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-09 23:17:29 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-09 23:17:29 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Started WordlatesApplication in 3.175 seconds (JVM running for 4.044)
+2020-12-09 23:17:29 [restartedMain] INFO  com.deepoove.poi.resolver.TemplateResolver - Resolve the document start...
+2020-12-09 23:17:29 [restartedMain] INFO  com.deepoove.poi.resolver.TemplateResolver - Resolve the document end, resolve and create 0 MetaTemplates.
+2020-12-09 23:17:29 [restartedMain] INFO  com.deepoove.poi.render.DefaultRender - Render template start...
+2020-12-09 23:17:29 [restartedMain] INFO  com.deepoove.poi.render.DefaultRender - Successfully Render template in 3 millis
+2020-12-09 23:18:02 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Starting WordlatesApplication on DESKTOP-TJTSLKU with PID 17292 (C:\Users\15174\IdeaProjects\wordlates\target\classes started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-09 23:18:02 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - No active profile set, falling back to default profiles: default
+2020-12-09 23:18:02 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-09 23:18:02 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-09 23:18:03 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-09 23:18:04 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+2020-12-09 23:18:04 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+2020-12-09 23:18:04 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-09 23:18:04 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-09 23:18:04 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-09 23:18:04 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1451 ms
+2020-12-09 23:18:04 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-09 23:18:04 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-09 23:18:04 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-12-09 23:18:04 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-09 23:18:05 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+2020-12-09 23:18:05 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+2020-12-09 23:18:05 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-09 23:18:05 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-09 23:18:05 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-09 23:18:05 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Started WordlatesApplication in 3.09 seconds (JVM running for 3.974)
+2020-12-09 23:18:05 [restartedMain] INFO  com.deepoove.poi.resolver.TemplateResolver - Resolve the document start...
+2020-12-09 23:18:05 [restartedMain] INFO  com.deepoove.poi.resolver.TemplateResolver - Resolve the document end, resolve and create 0 MetaTemplates.
+2020-12-09 23:18:05 [restartedMain] INFO  com.deepoove.poi.render.DefaultRender - Render template start...
+2020-12-09 23:18:05 [restartedMain] INFO  com.deepoove.poi.render.DefaultRender - Successfully Render template in 3 millis
+2020-12-09 23:19:43 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Starting WordlatesApplication on DESKTOP-TJTSLKU with PID 968 (C:\Users\15174\IdeaProjects\wordlates\target\classes started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-09 23:19:43 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - No active profile set, falling back to default profiles: default
+2020-12-09 23:19:43 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-09 23:19:43 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-09 23:19:44 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-09 23:19:45 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+2020-12-09 23:19:45 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+2020-12-09 23:19:45 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-09 23:19:45 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-09 23:19:45 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-09 23:19:45 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1524 ms
+2020-12-09 23:19:45 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-09 23:19:45 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-09 23:19:46 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-12-09 23:19:46 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-09 23:19:46 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+2020-12-09 23:19:46 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+2020-12-09 23:19:46 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-09 23:19:46 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-09 23:19:46 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-09 23:19:46 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Started WordlatesApplication in 3.287 seconds (JVM running for 4.335)
+2020-12-09 23:19:46 [restartedMain] INFO  com.deepoove.poi.resolver.TemplateResolver - Resolve the document start...
+2020-12-09 23:19:46 [restartedMain] INFO  com.deepoove.poi.resolver.TemplateResolver - Resolve the document end, resolve and create 0 MetaTemplates.
+2020-12-09 23:19:46 [restartedMain] INFO  com.deepoove.poi.render.DefaultRender - Render template start...
+2020-12-09 23:19:46 [restartedMain] INFO  com.deepoove.poi.render.DefaultRender - Successfully Render template in 4 millis
+2020-12-09 23:23:41 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Starting WordlatesApplication on DESKTOP-TJTSLKU with PID 17188 (C:\Users\15174\IdeaProjects\wordlates\target\classes started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-09 23:23:41 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - No active profile set, falling back to default profiles: default
+2020-12-09 23:23:41 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-09 23:23:41 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-09 23:23:42 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-09 23:23:42 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+2020-12-09 23:23:42 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+2020-12-09 23:23:42 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-09 23:23:42 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-09 23:23:43 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-09 23:23:43 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1381 ms
+2020-12-09 23:23:43 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-09 23:23:43 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-09 23:23:43 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-12-09 23:23:43 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-09 23:23:43 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+2020-12-09 23:23:43 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+2020-12-09 23:23:43 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-09 23:23:43 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-09 23:23:43 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-09 23:23:44 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Started WordlatesApplication in 2.955 seconds (JVM running for 3.727)
+2020-12-09 23:23:44 [restartedMain] INFO  com.deepoove.poi.resolver.TemplateResolver - Resolve the document start...
+2020-12-09 23:23:44 [restartedMain] INFO  com.deepoove.poi.resolver.TemplateResolver - Resolve the document end, resolve and create 7 MetaTemplates.
+2020-12-09 23:23:44 [restartedMain] INFO  com.deepoove.poi.render.DefaultRender - Render template start...
+2020-12-09 23:23:44 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cyear}}
+2020-12-09 23:23:44 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cfood}}
+2020-12-09 23:23:44 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cloc}}
+2020-12-09 23:23:44 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Clocs}}
+2020-12-09 23:23:44 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cp}}
+2020-12-09 23:23:44 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cps}}
+2020-12-09 23:23:44 [restartedMain] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cdata}}
+2020-12-09 23:23:44 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cyear}}, Sign: , policy:TextRenderPolicy
+2020-12-09 23:23:44 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cfood}}, Sign: , policy:TextRenderPolicy
+2020-12-09 23:23:44 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cloc}}, Sign: , policy:TextRenderPolicy
+2020-12-09 23:23:44 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Clocs}}, Sign: , policy:TextRenderPolicy
+2020-12-09 23:23:44 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cp}}, Sign: , policy:TextRenderPolicy
+2020-12-09 23:23:44 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cps}}, Sign: , policy:TextRenderPolicy
+2020-12-09 23:23:44 [restartedMain] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cdata}}, Sign: , policy:TextRenderPolicy
+2020-12-09 23:23:44 [restartedMain] INFO  com.deepoove.poi.render.DefaultRender - Successfully Render template in 24 millis
+2020-12-09 23:27:53 [http-nio-8881-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-09 23:27:53 [http-nio-8881-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-09 23:27:53 [http-nio-8881-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2020-12-09 23:28:02 [http-nio-8881-exec-4] INFO  com.deepoove.poi.resolver.TemplateResolver - Resolve the document start...
+2020-12-09 23:28:02 [http-nio-8881-exec-4] INFO  com.deepoove.poi.resolver.TemplateResolver - Resolve the document end, resolve and create 7 MetaTemplates.
+2020-12-09 23:28:02 [http-nio-8881-exec-4] INFO  com.deepoove.poi.render.DefaultRender - Render template start...
+2020-12-09 23:28:02 [http-nio-8881-exec-4] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cyear}}
+2020-12-09 23:28:02 [http-nio-8881-exec-4] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cfood}}
+2020-12-09 23:28:02 [http-nio-8881-exec-4] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cloc}}
+2020-12-09 23:28:02 [http-nio-8881-exec-4] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Clocs}}
+2020-12-09 23:28:02 [http-nio-8881-exec-4] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cp}}
+2020-12-09 23:28:02 [http-nio-8881-exec-4] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cps}}
+2020-12-09 23:28:02 [http-nio-8881-exec-4] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cdata}}
+2020-12-09 23:28:02 [http-nio-8881-exec-4] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cyear}}, Sign: , policy:TextRenderPolicy
+2020-12-09 23:28:02 [http-nio-8881-exec-4] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cfood}}, Sign: , policy:TextRenderPolicy
+2020-12-09 23:28:02 [http-nio-8881-exec-4] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cloc}}, Sign: , policy:TextRenderPolicy
+2020-12-09 23:28:02 [http-nio-8881-exec-4] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Clocs}}, Sign: , policy:TextRenderPolicy
+2020-12-09 23:28:02 [http-nio-8881-exec-4] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cp}}, Sign: , policy:TextRenderPolicy
+2020-12-09 23:28:02 [http-nio-8881-exec-4] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cps}}, Sign: , policy:TextRenderPolicy
+2020-12-09 23:28:02 [http-nio-8881-exec-4] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cdata}}, Sign: , policy:TextRenderPolicy
+2020-12-09 23:28:02 [http-nio-8881-exec-4] INFO  com.deepoove.poi.render.DefaultRender - Successfully Render template in 2 millis
+2020-12-09 23:37:51 [Thread-4] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-09 23:37:51 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Starting WordlatesApplication on DESKTOP-TJTSLKU with PID 17188 (C:\Users\15174\IdeaProjects\wordlates\target\classes started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-09 23:37:51 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - No active profile set, falling back to default profiles: default
+2020-12-09 23:37:51 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-09 23:37:51 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+2020-12-09 23:37:51 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+2020-12-09 23:37:51 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-09 23:37:51 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-09 23:37:51 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-09 23:37:51 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 604 ms
+2020-12-09 23:37:51 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'updateWordController' defined in file [C:\Users\15174\IdeaProjects\wordlates\target\classes\com\bjfu\wordlates\controller\UpdateWordController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.bjfu.wordlates.service.ReportService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2020-12-09 23:37:51 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-12-09 23:37:51 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-12-09 23:37:52 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.bjfu.wordlates.controller.UpdateWordController required a bean of type 'com.bjfu.wordlates.service.ReportService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.bjfu.wordlates.service.ReportService' in your configuration.
+
+2020-12-09 23:37:54 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Starting WordlatesApplication on DESKTOP-TJTSLKU with PID 17188 (C:\Users\15174\IdeaProjects\wordlates\target\classes started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-09 23:37:54 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - No active profile set, falling back to default profiles: default
+2020-12-09 23:37:55 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-09 23:37:55 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+2020-12-09 23:37:55 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+2020-12-09 23:37:55 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-09 23:37:55 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-09 23:37:55 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-09 23:37:55 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1135 ms
+2020-12-09 23:37:56 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-09 23:37:56 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-09 23:37:56 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-12-09 23:37:56 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-09 23:37:56 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+2020-12-09 23:37:56 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+2020-12-09 23:37:56 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-09 23:37:56 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-09 23:37:56 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-09 23:37:56 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Started WordlatesApplication in 1.979 seconds (JVM running for 856.159)
+2020-12-09 23:37:56 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-12-09 23:37:58 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - Starting FILEUtilTest on DESKTOP-TJTSLKU with PID 16200 (started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-09 23:37:58 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - No active profile set, falling back to default profiles: default
+2020-12-09 23:38:00 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-09 23:38:01 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - Starting FILEUtilTest on DESKTOP-TJTSLKU with PID 16304 (started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-09 23:38:01 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - No active profile set, falling back to default profiles: default
+2020-12-09 23:38:02 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-09 23:38:05 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-09 23:38:06 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-09 23:38:07 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-09 23:38:07 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-09 23:38:08 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-09 23:38:08 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-09 23:38:08 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-09 23:38:08 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-09 23:38:09 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-09 23:38:09 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - Started FILEUtilTest in 12.703 seconds (JVM running for 15.146)
+2020-12-09 23:38:10 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-09 23:38:10 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-09 23:38:10 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-09 23:38:10 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - Started FILEUtilTest in 10.528 seconds (JVM running for 13.241)
+2020-12-09 23:38:11 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-09 23:38:11 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-09 23:41:22 [Thread-8] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-09 23:41:22 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Starting WordlatesApplication on DESKTOP-TJTSLKU with PID 17188 (C:\Users\15174\IdeaProjects\wordlates\target\classes started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-09 23:41:22 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - No active profile set, falling back to default profiles: default
+2020-12-09 23:41:23 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-09 23:41:23 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+2020-12-09 23:41:23 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+2020-12-09 23:41:23 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-09 23:41:23 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-09 23:41:23 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-09 23:41:23 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 529 ms
+2020-12-09 23:41:23 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-09 23:41:23 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-09 23:41:23 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-12-09 23:41:23 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-09 23:41:23 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+2020-12-09 23:41:23 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+2020-12-09 23:41:23 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-09 23:41:23 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-09 23:41:23 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-09 23:41:23 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Started WordlatesApplication in 1.1 seconds (JVM running for 1063.569)
+2020-12-09 23:41:23 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-12-09 23:41:26 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - Starting FILEUtilTest on DESKTOP-TJTSLKU with PID 17560 (started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-09 23:41:26 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - No active profile set, falling back to default profiles: default
+2020-12-09 23:41:27 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-09 23:41:29 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-09 23:41:30 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-09 23:41:30 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-09 23:41:30 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-09 23:41:30 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-09 23:41:30 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-09 23:41:31 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - Started FILEUtilTest in 4.875 seconds (JVM running for 6.169)
+2020-12-09 23:41:31 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-09 23:43:04 [Thread-16] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-09 23:43:04 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Starting WordlatesApplication on DESKTOP-TJTSLKU with PID 17188 (C:\Users\15174\IdeaProjects\wordlates\target\classes started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-09 23:43:04 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - No active profile set, falling back to default profiles: default
+2020-12-09 23:43:04 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-09 23:43:04 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+2020-12-09 23:43:04 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+2020-12-09 23:43:04 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-09 23:43:04 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-09 23:43:04 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-09 23:43:04 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 651 ms
+2020-12-09 23:43:05 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-09 23:43:05 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-09 23:43:05 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-12-09 23:43:05 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-09 23:43:05 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+2020-12-09 23:43:05 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+2020-12-09 23:43:05 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-09 23:43:05 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-09 23:43:05 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-09 23:43:05 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Started WordlatesApplication in 1.253 seconds (JVM running for 1165.104)
+2020-12-09 23:43:05 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-12-09 23:43:06 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - Starting FILEUtilTest on DESKTOP-TJTSLKU with PID 16276 (started by 15174 in C:\Users\15174\IdeaProjects\wordlates)
+2020-12-09 23:43:06 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - No active profile set, falling back to default profiles: default
+2020-12-09 23:43:07 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2020-12-09 23:43:09 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-09 23:43:09 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-09 23:43:09 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-09 23:43:10 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-09 23:43:10 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-09 23:43:10 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-09 23:43:10 [main] INFO  com.bjfu.wordlates.utils.FILEUtilTest - Started FILEUtilTest in 4.892 seconds (JVM running for 6.388)
+2020-12-09 23:43:11 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

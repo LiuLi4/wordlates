@@ -1,0 +1,17 @@
+2020-12-09 23:09:45 [http-nio-8881-exec-5] ERROR com.bjfu.wordlates.controller.UpdateWordController - URL of the current request:[/word/updateWord] - exception:[org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)] - response:[org.apache.catalina.connector.ResponseFacade@5cfcc65e]
+2020-12-09 23:10:27 [http-nio-8881-exec-9] ERROR com.bjfu.wordlates.controller.UpdateWordController - URL of the current request:[/word/updateWord] - exception:[org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)] - response:[org.apache.catalina.connector.ResponseFacade@5cfcc65e]
+2020-12-09 23:37:52 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.bjfu.wordlates.controller.UpdateWordController required a bean of type 'com.bjfu.wordlates.service.ReportService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.bjfu.wordlates.service.ReportService' in your configuration.
+
