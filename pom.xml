@@ -12,6 +12,7 @@
     <artifactId>wordlates</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>wordlates</name>
+    <packaging>jar</packaging>
     <description>Word Template project for Spring Boot</description>
 
     <properties>

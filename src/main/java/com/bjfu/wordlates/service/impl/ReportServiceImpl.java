@@ -6,12 +6,10 @@ import com.bjfu.wordlates.service.ReportService;
 import com.bjfu.wordlates.utils.DATAUtil;
 import com.bjfu.wordlates.utils.FILEUtil;
 import com.bjfu.wordlates.utils.JSONUtil;
-import com.bjfu.wordlates.utils.POIUtil;
 import com.deepoove.poi.XWPFTemplate;
 import com.deepoove.poi.data.*;
 import org.springframework.stereotype.Service;
 
-import javax.annotation.Resource;
 import javax.servlet.http.HttpServletResponse;
 import java.io.OutputStream;
 import java.util.*;
@@ -35,8 +33,8 @@ public class ReportServiceImpl implements ReportService {
         Map<String, Object> params =new HashMap<String, Object>() {{
             put("Cyear","2019");
             put("Cfood","xx食品");
-            put("Cloc","浙江省市场监督管理局");
-            put("Clocs","浙江省市场监督管理局,北京林业大学");
+            put("Cloc","xx省xx单位");
+            put("Clocs","北京林业大学");
             put("Cp","XXX");
             put("Cps","xxx,yyy");
             put("Cdata",DATAUtil.newDate());

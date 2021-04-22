@@ -9,10 +9,6 @@ spring:
     url: jdbc:mysql://123.56.155.7:3306/wordlates?useUnicode=true&characterEncoding=utf-8
     username: llsh
     password: LLsh0718!@#$
-  # 热部署
-  devtools:
-    restart:
-      enabled: true
   # 控制文件上传
   servlet:
     multipart:
@@ -33,6 +29,7 @@ logging:
 # 文件上传配置
 upload:
   path: ./upload/
+
 
 
 
