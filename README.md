@@ -22,3 +22,11 @@
     区域类型*=13
 
 列名字=列号
+
+## 配置文件说明
+1. 将不变的配置项放在application.yml中，application-dev文件下放本地开发环境配置，application-prod文件下放线上环境配置。
+2. 部署到线上服务器时，用线上环境打包 
+``` bash
+mvn clean package -P prod
+```
+3. 参考文章：https://juejin.cn/post/6856965881378029582
