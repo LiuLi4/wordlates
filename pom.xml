@@ -15,8 +15,32 @@
     <packaging>jar</packaging>
     <description>Word Template project for Spring Boot</description>
 
+    <profiles>
+        <profile>
+            <!-- 本地开发环境 -->
+            <id>dev</id>
+            <properties>
+                <profiles.active>dev</profiles.active>
+                <spring.active>dev</spring.active>
+            </properties>
+            <!-- 默认是dev环境 -->
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+        <profile>
+            <!-- 生产环境 -->
+            <id>prod</id>
+            <properties>
+                <profiles.active>prod</profiles.active>
+                <spring.active>prod</spring.active>
+            </properties>
+        </profile>
+    </profiles>
+
     <properties>
-        <java.version>11</java.version>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
     <dependencies>
@@ -134,6 +158,12 @@
             <artifactId>poi-tl</artifactId>
             <version>1.8.2</version>
         </dependency>
+        <!-- 调用Python代码 -->
+        <dependency>
+            <groupId>org.python</groupId>
+            <artifactId>jython-standalone</artifactId>
+            <version>2.7.1</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -143,6 +173,19 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+                <includes>
+                    <include>application-${profiles.active}.yml</include>
+                    <include>bootstrap.yml</include>
+                    <include>application.yml</include>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
+            </resource>
+        </resources>
     </build>
 
 </project>
