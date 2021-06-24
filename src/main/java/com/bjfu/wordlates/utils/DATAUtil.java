@@ -7,8 +7,8 @@ import java.util.stream.Collectors;
 
 public class DATAUtil {
     //生成当天日期
-    public static String newDate(){
-        String format=new SimpleDateFormat("yyyy年-MM月").format(new Date());
+    public static String newDate(Date time){
+        String format=new SimpleDateFormat("yyyy年-MM月").format(time);
         return format;
     }
 
@@ -38,7 +38,7 @@ public class DATAUtil {
 
     //返回抽查不合格的商品的详细情况
     /*s商品名字，p检查项目，o是否合格
-    * */
+     * */
     public static Map unqualifiedMap(List s, List p,List o){
         Map i=new HashMap();
         int count=0;

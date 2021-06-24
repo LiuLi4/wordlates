@@ -1,0 +1,314 @@
+2021-06-24 13:04:04 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Starting WordlatesApplication on albert with PID 10896 (C:\Users\15174\IdeaProjects\wordlates1\target\classes started by 15174 in C:\Users\15174\IdeaProjects\wordlates1)
+2021-06-24 13:04:04 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - The following profiles are active: $spring.active$
+2021-06-24 13:04:04 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-24 13:04:04 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-24 13:04:05 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2021-06-24 13:04:05 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+2021-06-24 13:04:05 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+2021-06-24 13:04:05 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-06-24 13:04:05 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-06-24 13:04:05 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-06-24 13:04:05 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1091 ms
+2021-06-24 13:04:06 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-06-24 13:04:06 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-24 13:04:06 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-06-24 13:04:06 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-06-24 13:04:06 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+2021-06-24 13:04:06 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+2021-06-24 13:04:06 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-06-24 13:04:06 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-06-24 13:04:06 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-06-24 13:04:06 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Started WordlatesApplication in 2.177 seconds (JVM running for 3.312)
+2021-06-24 13:04:16 [http-nio-8881-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-24 13:04:16 [http-nio-8881-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-06-24 13:04:16 [http-nio-8881-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2021-06-24 13:04:16 [http-nio-8881-exec-1] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.bjfu.wordlates.controller.StaticWordController.postFileExcel(StaticWordController.java:99)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-06-24 13:04:21 [http-nio-8881-exec-2] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.bjfu.wordlates.controller.StaticWordController.postFileExcel(StaticWordController.java:99)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-06-24 13:09:24 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Starting WordlatesApplication on albert with PID 17760 (C:\Users\15174\IdeaProjects\wordlates1\target\classes started by 15174 in C:\Users\15174\IdeaProjects\wordlates1)
+2021-06-24 13:09:24 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - The following profiles are active: $spring.active$
+2021-06-24 13:09:24 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-24 13:09:24 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-24 13:09:25 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2021-06-24 13:09:25 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+2021-06-24 13:09:25 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+2021-06-24 13:09:25 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-06-24 13:09:25 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-06-24 13:09:25 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-06-24 13:09:25 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1093 ms
+2021-06-24 13:09:26 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-06-24 13:09:26 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-24 13:09:26 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-06-24 13:09:26 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-06-24 13:09:26 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+2021-06-24 13:09:26 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+2021-06-24 13:09:26 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-06-24 13:09:26 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-06-24 13:09:26 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-06-24 13:09:26 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Started WordlatesApplication in 2.161 seconds (JVM running for 3.139)
+2021-06-24 13:09:46 [http-nio-8881-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-24 13:09:46 [http-nio-8881-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-06-24 13:09:46 [http-nio-8881-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2021-06-24 13:09:54 [http-nio-8881-exec-3] ERROR com.bjfu.wordlates.controller.UpdateWordController - URL of the current request:[/word/updateWord] - exception:[java.lang.NullPointerException] - response:[org.apache.catalina.connector.ResponseFacade@2b324f05]
+2021-06-24 13:09:56 [http-nio-8881-exec-4] ERROR com.bjfu.wordlates.controller.UpdateWordController - URL of the current request:[/word/updateWord] - exception:[java.lang.NullPointerException] - response:[org.apache.catalina.connector.ResponseFacade@2b324f05]
+2021-06-24 13:14:14 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Starting WordlatesApplication on albert with PID 20620 (C:\Users\15174\IdeaProjects\wordlates1\target\classes started by 15174 in C:\Users\15174\IdeaProjects\wordlates1)
+2021-06-24 13:14:14 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - The following profiles are active: $spring.active$
+2021-06-24 13:14:14 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-24 13:14:14 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-24 13:14:15 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2021-06-24 13:14:15 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+2021-06-24 13:14:15 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+2021-06-24 13:14:15 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-06-24 13:14:15 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-06-24 13:14:15 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-06-24 13:14:15 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1124 ms
+2021-06-24 13:14:16 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-06-24 13:14:16 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-24 13:14:16 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-06-24 13:14:16 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-06-24 13:14:16 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+2021-06-24 13:14:16 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+2021-06-24 13:14:16 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-06-24 13:14:16 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-06-24 13:14:16 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-06-24 13:14:16 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Started WordlatesApplication in 2.222 seconds (JVM running for 3.151)
+2021-06-24 13:14:23 [http-nio-8881-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-24 13:14:23 [http-nio-8881-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-06-24 13:14:23 [http-nio-8881-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2021-06-24 13:14:37 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Starting WordlatesApplication on albert with PID 12956 (C:\Users\15174\IdeaProjects\wordlates1\target\classes started by 15174 in C:\Users\15174\IdeaProjects\wordlates1)
+2021-06-24 13:14:37 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - The following profiles are active: $spring.active$
+2021-06-24 13:14:37 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-24 13:14:37 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-24 13:14:37 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bjfu.wordlates.entity]' package. Please check your configuration.
+2021-06-24 13:14:38 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+2021-06-24 13:14:38 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+2021-06-24 13:14:38 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-06-24 13:14:38 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-06-24 13:14:38 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-06-24 13:14:38 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1110 ms
+2021-06-24 13:14:38 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-06-24 13:14:38 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-24 13:14:38 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-06-24 13:14:38 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-06-24 13:14:38 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+2021-06-24 13:14:38 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+2021-06-24 13:14:38 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-06-24 13:14:38 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-06-24 13:14:38 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-06-24 13:14:39 [restartedMain] INFO  com.bjfu.wordlates.WordlatesApplication - Started WordlatesApplication in 2.201 seconds (JVM running for 3.241)
+2021-06-24 13:14:49 [http-nio-8881-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-24 13:14:49 [http-nio-8881-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-06-24 13:14:49 [http-nio-8881-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2021-06-24 13:14:54 [http-nio-8881-exec-3] ERROR com.bjfu.wordlates.controller.UpdateWordController - URL of the current request:[/word/updateWord] - exception:[java.lang.NullPointerException] - response:[org.apache.catalina.connector.ResponseFacade@129a2763]
+2021-06-24 13:14:57 [http-nio-8881-exec-4] ERROR com.bjfu.wordlates.controller.UpdateWordController - URL of the current request:[/word/updateWord] - exception:[java.lang.NullPointerException] - response:[org.apache.catalina.connector.ResponseFacade@129a2763]
+2021-06-24 13:15:18 [http-nio-8881-exec-7] ERROR com.bjfu.wordlates.controller.UpdateWordController - URL of the current request:[/word/updateWord] - exception:[java.lang.NullPointerException] - response:[org.apache.catalina.connector.ResponseFacade@129a2763]
+2021-06-24 13:15:21 [http-nio-8881-exec-8] ERROR com.bjfu.wordlates.controller.UpdateWordController - URL of the current request:[/word/updateWord] - exception:[java.lang.NullPointerException] - response:[org.apache.catalina.connector.ResponseFacade@129a2763]
+2021-06-24 13:15:45 [http-nio-8881-exec-2] ERROR com.bjfu.wordlates.controller.UpdateWordController - URL of the current request:[/word/updateWord] - exception:[java.lang.NullPointerException] - response:[org.apache.catalina.connector.ResponseFacade@129a2763]
+2021-06-24 13:15:48 [http-nio-8881-exec-3] ERROR com.bjfu.wordlates.controller.UpdateWordController - URL of the current request:[/word/updateWord] - exception:[java.lang.NullPointerException] - response:[org.apache.catalina.connector.ResponseFacade@129a2763]
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.resolver.TemplateResolver - Resolve the document start...
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.resolver.TemplateResolver - Resolve the document end, resolve and create 24 MetaTemplates.
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.DefaultRender - Render template start...
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cyear}}
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cfood}}
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cloc}}
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Clocs}}
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cp}}
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cps}}
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cdata}}
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cyear}}
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cfood}}
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Aloc}}
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Alocn}}
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Asort}}
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Asortn}}
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Afood}}
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Afoodn}}
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Ameth}}
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Amethn}}
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Afoodn}}
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Adan}}
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Adann}}
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Arate}}
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.LogProcessor - {{#table}}
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.LogProcessor - Chart::{{pieSampling}}
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.LogProcessor - Chart::{{barLocation}}
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cyear}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cfood}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cloc}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Clocs}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cp}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cps}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cdata}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cyear}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cfood}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Aloc}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Alocn}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Asort}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Asortn}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Afood}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Afoodn}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Ameth}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Amethn}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Afoodn}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Adan}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Adann}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Arate}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{#table}}, Sign:#, policy:MiniTableRenderPolicy
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template Chart::{{pieSampling}}, Sign: , policy:SingleSeriesChartTemplateRenderPolicy
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template Chart::{{barLocation}}, Sign: , policy:MultiSeriesChartTemplateRenderPolicy
+2021-06-24 13:17:17 [http-nio-8881-exec-10] INFO  com.deepoove.poi.render.DefaultRender - Successfully Render template in 182 millis
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.resolver.TemplateResolver - Resolve the document start...
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.resolver.TemplateResolver - Resolve the document end, resolve and create 24 MetaTemplates.
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.DefaultRender - Render template start...
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cyear}}
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cfood}}
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cloc}}
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Clocs}}
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cp}}
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cps}}
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cdata}}
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cyear}}
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Cfood}}
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Aloc}}
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Alocn}}
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Asort}}
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Asortn}}
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Afood}}
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Afoodn}}
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Ameth}}
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Amethn}}
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Afoodn}}
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Adan}}
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Adann}}
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.LogProcessor - {{Arate}}
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.LogProcessor - {{#table}}
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.LogProcessor - Chart::{{pieSampling}}
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.LogProcessor - Chart::{{barLocation}}
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cyear}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cfood}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cloc}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Clocs}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cp}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cps}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cdata}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cyear}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Cfood}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Aloc}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Alocn}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Asort}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Asortn}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Afood}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Afoodn}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Ameth}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Amethn}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Afoodn}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Adan}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Adann}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{Arate}}, Sign: , policy:TextRenderPolicy
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template {{#table}}, Sign:#, policy:MiniTableRenderPolicy
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template Chart::{{pieSampling}}, Sign: , policy:SingleSeriesChartTemplateRenderPolicy
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.processor.ElementProcessor - Start render Template Chart::{{barLocation}}, Sign: , policy:MultiSeriesChartTemplateRenderPolicy
+2021-06-24 13:17:19 [http-nio-8881-exec-1] INFO  com.deepoove.poi.render.DefaultRender - Successfully Render template in 25 millis

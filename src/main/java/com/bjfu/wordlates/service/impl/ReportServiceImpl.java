@@ -2,6 +2,7 @@ package com.bjfu.wordlates.service.impl;
 
 import com.bjfu.wordlates.constant.Constants;
 import com.bjfu.wordlates.constant.ErrorEnums;
+import com.bjfu.wordlates.entity.Message;
 import com.bjfu.wordlates.service.ReportService;
 import com.bjfu.wordlates.utils.DATAUtil;
 import com.bjfu.wordlates.utils.FILEUtil;
@@ -12,32 +13,45 @@ import org.springframework.stereotype.Service;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.OutputStream;
+import java.net.URLEncoder;
 import java.util.*;
 
 @Service("testUserService")
 public class ReportServiceImpl implements ReportService {
 
-
+    private Message publicMessage;
     @Override
     public String creatWordByTemplate(HttpServletResponse res) throws Exception {
-        String fileName = Constants.FILE_OUT_NAME;
+        String fileName=null;
+        if(publicMessage!=null) {
+            if (publicMessage.getFile() == null) {
+                fileName = Constants.FILE_OUT_NAME;
+            } else {
+                fileName = publicMessage.getFile() + ".docx";
+            }
+        }else{
+            fileName = Constants.FILE_OUT_NAME;
+        }
         res.setHeader("content-type", "application/octet-stream");
         res.setContentType("application/octet-stream");
-        res.setHeader("Content-Disposition", "attachment;filename=" + fileName);
+        res.setHeader("Content-Disposition", "attachment;filename=" + URLEncoder.encode(fileName,"UTF-8"));
         OutputStream os = res.getOutputStream();
 
         // 数据
         Map<String, List<String>> dataMap = FILEUtil.readCSV(Constants.FILE_CSV_PATH);
 
         /************************生成自定义标签的值****************/
+        String name=publicMessage.getName();
+        String region=publicMessage.getRegion();
+        Date time=publicMessage.getTime();
         Map<String, Object> params =new HashMap<String, Object>() {{
             put("Cyear","2019");
             put("Cfood","xx食品");
-            put("Cloc","xx省xx单位");
-            put("Clocs","北京林业大学");
+            put("Cloc",name);
+            put("Clocs",region);
             put("Cp","XXX");
             put("Cps","xxx,yyy");
-            put("Cdata",DATAUtil.newDate());
+            put("Cdata",DATAUtil.newDate(time));
         }};
 
         /******************自定义复用变量*******************/
@@ -120,4 +134,9 @@ public class ReportServiceImpl implements ReportService {
 
         return JSONUtil.statusToJson(ErrorEnums.E_200);
     }
+
+    public void getMessage(Message message){
+        publicMessage=message;
+    }
+
 }
