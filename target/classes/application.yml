@@ -27,7 +27,7 @@ upload:
   path: ./upload/
 # python service配置
 python:
-  url: http://127.0.0.1:8000/api/
+  url: http://49.232.14.213:8000/api/
 
 
 

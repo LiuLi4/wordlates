@@ -1,9 +1,13 @@
 package com.bjfu.wordlates.controller;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONArray;
+import com.alibaba.fastjson.JSONObject;
 import com.bjfu.wordlates.constant.Constants;
 import com.bjfu.wordlates.constant.ErrorEnums;
 import com.bjfu.wordlates.entity.Message;
 import com.bjfu.wordlates.service.ReportService;
+import com.bjfu.wordlates.service.impl.PythonService;
 import com.bjfu.wordlates.utils.FILEUtil;
 import com.bjfu.wordlates.utils.JSONUtil;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,6 +18,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
 import java.net.URLEncoder;
+import java.nio.ByteBuffer;
+import java.nio.CharBuffer;
+import java.nio.charset.CharacterCodingException;
+import java.nio.charset.Charset;
+import java.nio.charset.CharsetEncoder;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -25,6 +34,9 @@ public class StaticWordController {
 
     @Autowired
     private ReportService reportService;
+
+    @Autowired
+    private PythonService pythonService;
     /*模板请求*/
     @GetMapping("/static/food")
     public void staticWord(HttpServletRequest req,HttpServletResponse res) throws IOException {
@@ -56,13 +68,15 @@ public class StaticWordController {
 
     /*分析数据列表返回*/
     @GetMapping("parseFile")
-    public Set<String> getFileData(){
+    public Set<String> getFileData() throws CharacterCodingException {
         Map<String, List<String>> dataMap = new HashMap<>();
         try {
             dataMap = FILEUtil.readCSV(Constants.FILE_CSV_PATH);
+            System.out.println(dataMap);
         } catch (IOException e) {
             e.printStackTrace();
         }
+        System.out.println(dataMap.keySet());
         return dataMap.keySet();
     }
 
@@ -101,6 +115,21 @@ public class StaticWordController {
                 e.printStackTrace();
             }
         }
+    }
+    @PostMapping("getParseData")
+    public String getParseData(@RequestBody String column){
+        System.out.println(column);
+        JSONObject jsonObject = JSON.parseObject(column);
+        JSONArray columnTemp = jsonObject.getJSONArray("checkedCities");
+        int length=columnTemp.size();
+        String[] columns=new String[length];
+        while(length>0){
+            columns[length-1]= (String) columnTemp.get(length-1);
+            --length;
+        }
+        System.out.println(columns.length+columns[1]+columns[0]+columns[2]);
+        String r=pythonService.apriori(columns,"utils/resource/tmp.csv","apriori");
+        return r;
     }
 
 }
